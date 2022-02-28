@@ -1,0 +1,19 @@
+.container {
+  height: 100vh;
+  display: flex;
+}
+.container .left ul {
+  background-color: #323232;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 5px;
+}
+.container .left ul li {
+  color: #ffffff;
+  text-align: right;
+}
+.container .right {
+  flex: 1;
+  background-color: black;
+  color: #ffffff;
+}
